@@ -1,0 +1,43 @@
+.btn-default{
+    margin-bottom: 44px;
+}
+.maphoto{
+    width: 20%;
+    border-radius: 100%;
+}
+nav{
+    margin-top: -90px;
+    margin-bottom: -120px;
+}
+.title{
+    margin-bottom: 30px;
+    margin-top: -33px;
+}
+.profil{
+    font-size: 15px;
+}
+.profile-section{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+.about-section{
+    margin-top: -30px;
+}
+.maphoto2{
+    border-radius: 100%;
+}
+.aboutme{
+    margin-top: -30px;
+}
+.iconservice{
+    width: 100px;
+    height: 100px;
+}
+.skills{
+    margin-top: 4px;
+}
+.logoimg{
+    width: 80px;
+    height: 80px;
+}

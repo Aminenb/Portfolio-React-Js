@@ -1,0 +1,13 @@
+$fonthead: 'Rubik', sans-serif;
+$fontstack: 'Rubik', sans-serif;
+$colordark: #586B8F;
+$coloryellow: #FFED78;
+$colorpink: #92B4EC;
+$colorblue: #5E89EF;
+$colordefault: #ADDCE4;
+
+@mixin transition($second) {
+  -webkit-transition: all $second ease-in-out;
+    -moz-transition: all $second ease-in-out;
+        transition: all $second ease-in-out;
+}

@@ -1,0 +1,96 @@
+/*=================================================================*/
+/*                      DARK MODE                              
+/*=================================================================*/
+body.dark {
+  color: #fff;
+  background-color: $colordark;
+
+  .section-title {
+    color: #fff;
+
+    &:before {
+      background: url("/images/dots-bg-light.svg");
+    }
+  }
+
+  .bg-dark {
+    background: #586B8F !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #fff;
+  }
+
+  blockquote {
+    background: #5E89EF;
+  }
+
+  .triangle-top:before {
+    border-bottom-color: #352771;
+  }
+
+  .timeline.exp .timeline-container::after,
+  .timeline.edu .timeline-container::after {
+    background: #352771;
+  }
+
+  .portfolio-filter li button {
+    color: #fff;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  .portfolio-filter li button.current {
+    color: $colorpink;
+  }
+
+  .blog-item .details h4.title a {
+    color: #fff;
+
+    &:hover {
+      color: $colorpink;
+    }
+  }
+
+  .contact-info {
+    background-image: url("/images/map-light.png");
+  }
+
+  .white-popup {
+    background: #352771;
+  }
+
+  footer.footer {
+    border-top: solid 1px #5E89EF;
+  }
+
+  .content-blog,
+  .blog-page-section {
+    background: #352771;
+  }
+
+  .bg-white {
+    background-color: #352771 !important;
+  }
+
+  .blog-standard .meta li a,
+  .blog-standard .title a,
+  .comment-author .fn {
+    color: #fff;
+  }
+
+  .blog-page-section .blog-pagination ul li {
+    background-color: #586B8F !important;
+  }
+
+  .blog-page-section .blog-single {
+    background-color: #586B8F !important;
+  }
+}
